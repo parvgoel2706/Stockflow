@@ -4,7 +4,7 @@ function Navbar() {
   return (
     <nav
       className="navbar navbar-expand-lg border-bottom"
-      style={{ backgroundColor: "white", position: "sticky", width: "100%" }}
+      style={{ backgroundColor: "white", position: "sticky", top:"0", width: "100%" }}
     >
       <div class="container p-1">
         <Link class="navbar-brand" to="/">
