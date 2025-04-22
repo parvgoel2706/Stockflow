@@ -11,7 +11,6 @@ function ProductPage() {
         <LeftSection/>
         <RightSection/>
         <Universe/>
-
     </> );
 }
 

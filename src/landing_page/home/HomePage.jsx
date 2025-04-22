@@ -10,14 +10,12 @@ import Footer from "../Footer";
 function HomePage() {
   return (
     <div className="HomePage" style={{color:"rgb(66,66,66)"}}>
-      <Navbar />
       <HeroComp />
       <Awards />
       <Stats />
       <Pricing />
       <Education />
       <OpenAccount />
-      <Footer />
     </div>
     
   );

@@ -30,13 +30,13 @@ function Footer() {
             <br />
             <a href="#">Careers</a>
             <br />
-            <a href="#">Zerodha.tech</a>
+            <a href="#">StockFlow.tech</a>
             <br />
             <a href="#">Open source</a>
             <br />
             <a href="#">Press & media</a>
             <br />
-            <a href="#">Zerodha Cares (CSR)</a>
+            <a href="#">StockFlow Cares (CSR)</a>
             <br />
           </div>
           <div className="col-3">
@@ -73,15 +73,15 @@ function Footer() {
           style={{ fontSize: "10.5px", color: "rgb(139, 139, 139)" }}
         >
           <p>
-            Zerodha Broking Ltd.: Member of NSE, BSE​ &​ MCX – SEBI Registration
-            no.: INZ000031633 CDSL/NSDL: Depository services through Zerodha
+            StockFlow Broking Ltd.: Member of NSE, BSE​ &​ MCX – SEBI Registration
+            no.: INZ000031633 CDSL/NSDL: Depository services through StockFlow
             Broking Ltd. – SEBI Registration no.: IN-DP-431-2019 Commodity
-            Trading through Zerodha Commodities Pvt. Ltd. MCX: 46025; NSE-50001
-            – SEBI Registration no.: INZ000038238 Registered Address: Zerodha
+            Trading through StockFlow Commodities Pvt. Ltd. MCX: 46025; NSE-50001
+            – SEBI Registration no.: INZ000038238 Registered Address: StockFlow
             Broking Ltd., #153/154, 4th Cross, Dollars Colony, Opp. Clarence
             Public School, J.P Nagar 4th Phase, Bengaluru - 560078, Karnataka,
             India. For any complaints pertaining to securities broking please
-            write to complaints@zerodha.com, for DP related to dp@zerodha.com.
+            write to complaints@StockFlow.com, for DP related to dp@StockFlow.com.
             Please ensure you carefully read the Risk Disclosure Document as
             prescribed by SEBI | ICF
           </p>
@@ -123,7 +123,7 @@ function Footer() {
             of allotment. In case of non allotment the funds will remain in your
             bank account. As a business we don't give stock tips, and have not
             authorized anyone to trade on behalf of others. If you find anyone
-            claiming to be part of Zerodha and offering such services, please
+            claiming to be part of StockFlow and offering such services, please
             create a ticket here.
           </p>
           <ul className="text-center">

@@ -1,13 +1,15 @@
+import { Link } from "react-router-dom";
+
 function Navbar() {
   return (
     <nav
       className="navbar navbar-expand-lg border-bottom"
-      style={{ backgroundColor: "white", position:"fixed", width:"100%"}}
+      style={{ backgroundColor: "white", position: "sticky", width: "100%" }}
     >
       <div class="container p-1">
-        <a class="navbar-brand" href="#">
+        <Link class="navbar-brand" to="/">
           <img src="media/images/logo.png" alt="" style={{ width: "20%" }} />
-        </a>
+        </Link>
         <button
           class="navbar-toggler"
           type="button"
@@ -24,29 +26,29 @@ function Navbar() {
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link " aria-current="page" href="#">
+              <Link class="nav-link " aria-current="page" to="/signup">
                 Signup
-              </a>
+              </Link>
             </li>
             <li class="nav-item">
-              <a class="nav-link " href="#">
+              <Link class="nav-link " to="/about">
                 About
-              </a>
+              </Link>
             </li>
             <li class="nav-item">
-              <a class="nav-link " aria-current="page" href="#">
+              <Link class="nav-link " aria-current="page" to="/product">
                 Product
-              </a>
+              </Link>
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">
+              <Link class="nav-link" aria-current="page" to="/pricing">
                 Pricing
-              </a>
+              </Link>
             </li>
             <li class="nav-item">
-              <a class="nav-link " aria-current="page" href="#">
+              <Link class="nav-link " aria-current="page" to="/support">
                 Support
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
