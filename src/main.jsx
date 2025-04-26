@@ -11,6 +11,9 @@ import SupportPage from "./landing_page/support/SupportPage";
 import Navbar from "./landing_page/Navbar";
 import Footer from "./landing_page/Footer";
 import PageNotFound from "./landing_page/PageNotFound";
+import Equity from "./landing_page/pricing/Equity";
+import Currency from "./landing_page/pricing/Currency";
+import Commodity from "./landing_page/pricing/Commodity";
 
 createRoot(document.getElementById("root")).render(
   <BrowserRouter>
@@ -20,9 +23,14 @@ createRoot(document.getElementById("root")).render(
       <Route path="/signup" element={<Signup />} />
       <Route path="/about" element={<AboutPage />} />
       <Route path="/product" element={<ProductPage />} />
-      <Route path="/pricing" element={<PricingPage />} />
+      <Route path="/pricing" element={<PricingPage />}>
+        <Route index element={<Equity />} />
+        <Route path="equity" element={<Equity />} />
+        <Route path="currency" element={<Currency />} />
+        <Route path="commodity" element={<Commodity />} />
+      </Route>
       <Route path="/support" element={<SupportPage />} />
-      <Route path="*" element={<PageNotFound/>} />
+      <Route path="*" element={<PageNotFound />} />
     </Routes>
     <Footer />
   </BrowserRouter>
