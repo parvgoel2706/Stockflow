@@ -1,0 +1,53 @@
+Include bootstrap and font awesome cdn link
+include all image under public -> media -> images -> all files
+install react-router-dom for routing 
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+  <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<HomePage/>} />
+      <Route path="/signup" element={<Signup/>} />
+      <Route path="/about" element={<AboutPage/>} />
+    </Routes>
+  </BrowserRouter> 
+
+  <a href=""></a>   ------->        <Link to="">Submit</Link> (prevent page reload)
+
+  // Nested Routing
+ help to render some part(component) of page on swiching tabs 
+  use of <Outlet> --> a kind of placeholder (tell where the nested element is shown)
+
+  pricing -> Equity
+          -> Commodity
+          -> Currency
+        
+so in main.jsx
+
+   <Route path="/pricing" element={<PricingPage />}>
+        <Route index element={<Equity />} />
+        <Route path="equity" element={<Equity />} />
+        <Route path="currency" element={<Currency />} />
+        <Route path="commodity" element={<Commodity />} />
+      </Route>
+
+  index is used to set the default value of the Outlet 
+  make diffent Link tag and write the url not (/equity, but just equity -> /charges/equity)
+
+Use NavLink instead of link
+React Router's NavLink handles .active for you automatically!
+
+  const location = useLocation();
+    <NavLink
+            className={({ isActive }) =>
+              isActive || location.pathname === "/pricing"
+                ? "nav-link active"
+                : "nav-link"
+            }
+            to="equity"
+          >
+
+During nested Routing --> <Routes>
+                            <Route/>
+                            <Route/>
+                          </Routes>
+          
+          but <BrowserRouter> </BrowserRouter>  should only be used once in App.js file 
