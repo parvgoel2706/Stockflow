@@ -1,0 +1,73 @@
+.small-14 {
+  font-size: 14px;
+}
+.small-12 {
+  font-size: 12px;
+}
+.home {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.topbar-part {
+  height: 80px;
+}
+
+.indices-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.index * {
+  padding: 5px;
+}
+.topbar-part .menu span {
+  padding: 7px;
+  font-size: calc(7px + 0.4vw);
+}
+.user-logo {
+  border-left: 1.5px solid rgb(164, 164, 164);
+}
+.dashboard {
+  flex: 1;
+}
+
+.gain {
+  color: rgb(18, 187, 18);
+}
+.loss {
+  color: rgb(227, 41, 41);
+}
+.lossPos {
+  background-color: rgb(221, 150, 150);
+  color: rgb(109, 32, 32);
+  padding: 2px 5px;
+}
+.holdings,
+.positions {
+  display: flex;
+  flex-direction: column;
+  height: 88vh;
+}
+
+.holdings .table-body-scroll,
+.positions .table-body-scroll {
+  overflow-y: auto;
+  flex: inherit;
+}
+.order-table th,
+.order-table td {
+  width: 12.5%;
+  text-align: center;
+}
+.position-table td,
+.position-table th {
+  width: 14.28%;
+  text-align: center;
+}
+.order-table tr,
+.position-table tr {
+  line-height: 2.2;
+  border-bottom: 0.88px solid rgba(227, 211, 211, 0.744);
+}
