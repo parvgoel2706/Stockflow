@@ -37,6 +37,22 @@
 .profile {
   border-left: 1.5px solid rgb(164, 164, 164);
 }
+
+.profile-menu {
+  position: absolute;
+  width: 180px;
+  border: 1px solid rgb(146, 139, 139);
+  background-color: rgb(238, 238, 238);
+  z-index: 2;
+  top: 80px;
+  right: 10px;
+}
+.profile-menu span {
+  font-style: italic;
+  padding: 0 15px;
+  font-size: 11px;
+}
+
 .dashboard {
   flex: 1;
 }
