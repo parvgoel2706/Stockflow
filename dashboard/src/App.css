@@ -24,9 +24,17 @@
 }
 .topbar-part .menu span {
   padding: 7px;
+  color: rgb(80, 80, 80);
   font-size: calc(7px + 0.4vw);
 }
-.user-logo {
+.topbar-part .menu span:hover {
+  color: rgb(197, 81, 14);
+}
+
+.topbar-part .menu a.active span {
+  color: #c5510e;
+}
+.profile {
   border-left: 1.5px solid rgb(164, 164, 164);
 }
 .dashboard {
