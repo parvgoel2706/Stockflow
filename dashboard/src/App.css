@@ -71,3 +71,14 @@
   line-height: 2.2;
   border-bottom: 0.88px solid rgba(227, 211, 211, 0.744);
 }
+.fund-details table tr > td {
+  font-size: 13px;
+  font-weight: 600;
+  padding: 9px 30px;
+  text-align: end;
+}
+.fund-details table tr > td:first-child {
+  color: rgb(146, 148, 148);
+  font-size: 13px;
+  text-align: start;
+}
