@@ -106,3 +106,35 @@
   font-size: 13px;
   text-align: start;
 }
+
+.watchlist-search .search{
+  width: 80%;
+  font-size: 80%;
+  background-color: white;
+  border: none;
+  color: black;
+}
+.list li {
+  list-style-type: none;
+}
+.list li:hover{
+  background-color: #e1e1e1;
+  cursor: pointer;
+}
+.list{
+  height:70vh;
+  overflow-y: auto;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #c0c0c0;
+  border-radius: 3px;
+}

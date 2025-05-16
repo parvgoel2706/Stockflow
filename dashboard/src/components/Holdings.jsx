@@ -1,7 +1,9 @@
+import { holdings } from "../data/data";
+
 function Holdings() {
   return (
     <div className="holdings">
-      <h3 className="m-3">Holdings (13)</h3>
+      <h3 className="m-3">Holdings ({holdings.length})</h3>
 
       <table className="order-table w-100 ">
         <thead className="border">
@@ -20,177 +22,24 @@ function Holdings() {
       <div className="table-body-scroll">
         <table className="order-table w-100">
           <tbody className="border">
-            <tr className=" small-14">
-              <td>BHARTIARLT</td>
-              <td>2</td>
-              <td>538.05</td>
-              <td>541.15</td>
-              <td>1082.30</td>
-              <td className="gain">6.20</td>
-              <td className="gain">+0.58%</td>
-              <td className="small-12 gain">+2.99%</td>
-            </tr>
-            <tr className=" small-14">
-              <td>BHARTIARLT</td>
-              <td>2</td>
-              <td>538.05</td>
-              <td>541.15</td>
-              <td>1082.30</td>
-              <td className="gain">6.20</td>
-              <td className="gain">+0.58%</td>
-              <td className="small-12 gain">+2.99%</td>
-            </tr>
-            <tr className=" small-14">
-              <td>BHARTIARLT</td>
-              <td>2</td>
-              <td>538.05</td>
-              <td>541.15</td>
-              <td>1082.30</td>
-              <td className="gain">6.20</td>
-              <td className="gain">+0.58%</td>
-              <td className="small-12 gain">+2.99%</td>
-            </tr>
-            <tr className=" small-14">
-              <td>BHARTIARLT</td>
-              <td>2</td>
-              <td>538.05</td>
-              <td>541.15</td>
-              <td>1082.30</td>
-              <td className="gain">6.20</td>
-              <td className="gain">+0.58%</td>
-              <td className="small-12 gain">+2.99%</td>
-            </tr>
-            <tr className=" small-14">
-              <td>BHARTIARLT</td>
-              <td>2</td>
-              <td>538.05</td>
-              <td>541.15</td>
-              <td>1082.30</td>
-              <td className="gain">6.20</td>
-              <td className="gain">+0.58%</td>
-              <td className="small-12 gain">+2.99%</td>
-            </tr>
-            <tr className=" small-14">
-              <td>BHARTIARLT</td>
-              <td>2</td>
-              <td>538.05</td>
-              <td>541.15</td>
-              <td>1082.30</td>
-              <td className="gain">6.20</td>
-              <td className="gain">+0.58%</td>
-              <td className="small-12 gain">+2.99%</td>
-            </tr>
-            <tr className=" small-14">
-              <td>BHARTIARLT</td>
-              <td>2</td>
-              <td>538.05</td>
-              <td>541.15</td>
-              <td>1082.30</td>
-              <td className="gain">6.20</td>
-              <td className="gain">+0.58%</td>
-              <td className="small-12 gain">+2.99%</td>
-            </tr>
-            <tr className=" small-14">
-              <td>BHARTIARLT</td>
-              <td>2</td>
-              <td>538.05</td>
-              <td>541.15</td>
-              <td>1082.30</td>
-              <td className="gain">6.20</td>
-              <td className="gain">+0.58%</td>
-              <td className="small-12 gain">+2.99%</td>
-            </tr>
-            <tr className=" small-14">
-              <td>BHARTIARLT</td>
-              <td>2</td>
-              <td>538.05</td>
-              <td>541.15</td>
-              <td>1082.30</td>
-              <td className="gain">6.20</td>
-              <td className="gain">+0.58%</td>
-              <td className="small-12 gain">+2.99%</td>
-            </tr>
-            <tr className=" small-14">
-              <td>BHARTIARLT</td>
-              <td>2</td>
-              <td>538.05</td>
-              <td>541.15</td>
-              <td>1082.30</td>
-              <td className="gain">6.20</td>
-              <td className="gain">+0.58%</td>
-              <td className="small-12 gain">+2.99%</td>
-            </tr>
-            <tr className=" small-14">
-              <td>BHARTIARLT</td>
-              <td>2</td>
-              <td>538.05</td>
-              <td>541.15</td>
-              <td>1082.30</td>
-              <td className="gain">6.20</td>
-              <td className="gain">+0.58%</td>
-              <td className="small-12 gain">+2.99%</td>
-            </tr>
-            <tr className=" small-14">
-              <td>BHARTIARLT</td>
-              <td>2</td>
-              <td>538.05</td>
-              <td>541.15</td>
-              <td>1082.30</td>
-              <td className="gain">6.20</td>
-              <td className="gain">+0.58%</td>
-              <td className="small-12 gain">+2.99%</td>
-            </tr>
-            <tr className=" small-14">
-              <td>BHARTIARLT</td>
-              <td>2</td>
-              <td>538.05</td>
-              <td>541.15</td>
-              <td>1082.30</td>
-              <td className="gain">6.20</td>
-              <td className="gain">+0.58%</td>
-              <td className="small-12 gain">+2.99%</td>
-            </tr>
-            <tr className=" small-14">
-              <td>BHARTIARLT</td>
-              <td>2</td>
-              <td>538.05</td>
-              <td>541.15</td>
-              <td>1082.30</td>
-              <td className="gain">6.20</td>
-              <td className="gain">+0.58%</td>
-              <td className="small-12 gain">+2.99%</td>
-            </tr>
-            <tr className=" small-14">
-              <td>BHARTIARLT</td>
-              <td>2</td>
-              <td>538.05</td>
-              <td>541.15</td>
-              <td>1082.30</td>
-              <td className="gain">6.20</td>
-              <td className="gain">+0.58%</td>
-              <td className="small-12 gain">+2.99%</td>
-            </tr>
-            <tr className=" small-14">
-              <td>BHARTIARLT</td>
-              <td>2</td>
-              <td>538.05</td>
-              <td>541.15</td>
-              <td>1082.30</td>
-              <td className="gain">6.20</td>
-              <td className="gain">+0.58%</td>
-              <td className="small-12 gain">+2.99%</td>
-            </tr>
-            <tr className=" small-14">
-              <td>BHARTIARLT</td>
-              <td>2</td>
-              <td>538.05</td>
-              <td>541.15</td>
-              <td>1082.30</td>
-              <td className="gain">6.20</td>
-              <td className="gain">+0.58%</td>
-              <td className="small-12 gain">+2.99%</td>
-            </tr>
- 
+            {holdings.map((stock, idx) => {
+              let currValue = stock.price * stock.qty;
+              const isProfit = currValue - (stock.avg * stock.qty);
+              const profClass = isProfit>0 ? "gain" : "loss";
+              const dayClass = stock.isLoss ? "loss" : "gain";
+              return (
+                <tr key={idx} className=" small-14">
+                  <td>{stock.name}</td>
+                  <td>{stock.qty}</td>
+                  <td>{stock.avg.toFixed(2)}</td>
+                  <td>{stock.price.toFixed(2)}</td>
+                  <td>{currValue.toFixed(2)}</td>
+                  <td className={profClass}>{(currValue - stock.avg*stock.qty).toFixed(2)}</td>
+                  <td className={profClass}>{stock.net}</td>
+                  <td className={`small-12 ${dayClass}`}>{stock.day}</td>
+                </tr>
+              );
+            })}
           </tbody>
         </table>
       </div>
@@ -208,7 +57,10 @@ function Holdings() {
           <p>Current value</p>
         </div>
         <div className="col">
-          <h5>1,553.<span className="small-14">40</span > <span className="small-12">(+5.20%)</span></h5>
+          <h5>
+            1,553.<span className="small-14">40</span>{" "}
+            <span className="small-12">(+5.20%)</span>
+          </h5>
           <p>P&L</p>
         </div>
       </div>
